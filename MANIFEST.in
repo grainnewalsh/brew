@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include brew *.css
+recursive-include brew *.csv
+recursive-include brew *.html
+recursive-include brew *.ico
+recursive-include brew *.js
+recursive-include brew *.json
+recursive-include brew *.md
+recursive-include brew *.png
+recursive-include brew *.py
+recursive-include brew *.svg
+recursive-include brew *.txt
+recursive-exclude brew *.pyc
