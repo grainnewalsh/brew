@@ -111,3 +111,6 @@ app_license = "TBD"
 # 	"frappe.desk.doctype.event.event.get_events": "brew.event.get_events"
 # }
 
+#export custom fields as well
+fixtures = ["Custom Field"]
+
