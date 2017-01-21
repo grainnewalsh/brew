@@ -10,7 +10,7 @@ def get_data():
                                 {
                                         "type": "doctype",
                                         "name": "Recipe",
-					"label": "All Recipes"
+					"label": "Recipes"
                                 },
 
 				{
@@ -35,6 +35,11 @@ def get_data():
 					"doctype": "Item",
                                         "name": "Beer Stock",
 					"label": "Current Beer in Stock"
+                                },
+ {
+                                        "type": "doctype",
+                                        "name": "Packaged Beer Batch",
+                                        "label": "Packaged Beer by Batch"
                                 },
 
 				{
