@@ -9,19 +9,42 @@ def get_data():
 
                                 {
                                         "type": "doctype",
-                                        "name": "Recipe"
+                                        "name": "Recipe",
+					"label": "All Recipes"
                                 },
 
 				{
 					"type": "doctype",
-					"name": "Production Brew"
+					"name": "Production Brew",
+					"label": "Beer Batches"
 				},
 				{
 					"type": "doctype",
-					"name": "Packaging Run"
+					"name": "Packaging Run",
+					"label": "Packaging Batch Info"
 				}
 			]
 		},
+	{
+			"label": _("Stock"),
+			"items": [
+
+                                {
+                                        "type": "report",
+					"is_query_report": True,
+					"doctype": "Item",
+                                        "name": "Beer Stock",
+					"label": "Current Beer in Stock"
+                                },
+
+				{
+					"type": "doctype",
+					"name": "Delivery Note",
+					"label": "Delivery Docket"
+				}
+			]
+		},
+
 	]
 
 
