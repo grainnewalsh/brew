@@ -1,0 +1,121 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2015-12-21 17:38:49.736261", 
+  "name": "Approve", 
+  "workflow_action_name": "Approve"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2015-12-21 17:38:49.739215", 
+  "name": "Reject", 
+  "workflow_action_name": "Reject"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2015-12-21 17:38:49.740652", 
+  "name": "Review", 
+  "workflow_action_name": "Review"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2016-10-13 16:17:36.731817", 
+  "name": "Inclined", 
+  "workflow_action_name": "Inclined"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2016-10-13 16:18:16.137805", 
+  "name": "Declined", 
+  "workflow_action_name": "Declined"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2016-10-13 16:18:37.240903", 
+  "name": "Not Inclined", 
+  "workflow_action_name": "Not Inclined"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2016-10-13 16:21:17.757818", 
+  "name": "Inform Candidate", 
+  "workflow_action_name": "Inform Candidate"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2016-10-13 16:24:12.462279", 
+  "name": "Candidate Accepts", 
+  "workflow_action_name": "Candidate Accepts"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 20:40:05.945035", 
+  "name": "Start Brew", 
+  "workflow_action_name": "Start Brew"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 20:41:18.113620", 
+  "name": "Prep Complete - Ready to Brew", 
+  "workflow_action_name": "Prep Complete - Ready to Brew"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 20:41:49.887424", 
+  "name": "Xfer to Conditioning", 
+  "workflow_action_name": "Xfer to Conditioning"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 20:42:15.193799", 
+  "name": "Send for Packaging", 
+  "workflow_action_name": "Send for Packaging"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 20:58:37.384612", 
+  "name": "Go Back", 
+  "workflow_action_name": "Go Back"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 21:01:27.762148", 
+  "name": "Confirm Complete", 
+  "workflow_action_name": "Confirm Complete"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-18 21:02:29.373999", 
+  "name": "Cancelled", 
+  "workflow_action_name": "Cancelled"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-27 12:29:03.343170", 
+  "name": "Cancel", 
+  "workflow_action_name": "Cancel"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action", 
+  "modified": "2017-01-27 12:29:22.085095", 
+  "name": "Make Amendments", 
+  "workflow_action_name": "Make Amendments"
+ }
+]

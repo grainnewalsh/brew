@@ -1,0 +1,200 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "question-sign", 
+  "modified": "2015-12-21 17:38:49.721218", 
+  "name": "Pending", 
+  "style": "", 
+  "workflow_state_name": "Pending"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "ok-sign", 
+  "modified": "2015-12-21 17:38:49.724686", 
+  "name": "Approved", 
+  "style": "Success", 
+  "workflow_state_name": "Approved"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "remove", 
+  "modified": "2015-12-21 17:38:49.726381", 
+  "name": "Rejected", 
+  "style": "Danger", 
+  "workflow_state_name": "Rejected"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:13:17.820332", 
+  "name": "Inclined", 
+  "style": "Success", 
+  "workflow_state_name": "Inclined"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:14:09.206911", 
+  "name": "Not Inclined", 
+  "style": "", 
+  "workflow_state_name": "Not Inclined"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:14:32.127719", 
+  "name": "Pending Phone Screen", 
+  "style": "", 
+  "workflow_state_name": "Pending Phone Screen"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:15:10.440581", 
+  "name": "Pending In-House", 
+  "style": "", 
+  "workflow_state_name": "Pending In-House"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:15:21.063783", 
+  "name": "Pending De-Brief", 
+  "style": "", 
+  "workflow_state_name": "Pending De-Brief"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:16:27.727348", 
+  "name": "Pending Review", 
+  "style": "", 
+  "workflow_state_name": "Pending Review"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:20:30.467456", 
+  "name": "Extend Offer", 
+  "style": "", 
+  "workflow_state_name": "Extend Offer"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:21:24.519888", 
+  "name": "Candidate Informed", 
+  "style": "", 
+  "workflow_state_name": "Candidate Informed"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:22:33.364669", 
+  "name": "Offer Extended", 
+  "style": "", 
+  "workflow_state_name": "Offer Extended"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2016-10-13 16:23:40.764492", 
+  "name": "Offer Accepted", 
+  "style": "", 
+  "workflow_state_name": "Offer Accepted"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 20:37:33.533867", 
+  "name": "Preparing to Brew", 
+  "style": "Inverse", 
+  "workflow_state_name": "Preparing to Brew"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 20:38:04.313109", 
+  "name": "Ready to Brew", 
+  "style": "", 
+  "workflow_state_name": "Ready to Brew"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 20:38:17.157642", 
+  "name": "Fermenting", 
+  "style": "", 
+  "workflow_state_name": "Fermenting"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 20:38:38.968943", 
+  "name": "Conditioning", 
+  "style": "", 
+  "workflow_state_name": "Conditioning"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 20:39:06.456619", 
+  "name": "Sent for Packaging", 
+  "style": "Success", 
+  "workflow_state_name": "Sent for Packaging"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 21:00:42.848812", 
+  "name": "Complete", 
+  "style": "", 
+  "workflow_state_name": "Complete"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 21:01:44.810560", 
+  "name": "Cancel", 
+  "style": "", 
+  "workflow_state_name": "Cancel"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-18 21:02:17.300140", 
+  "name": "Cancel and Make Changes", 
+  "style": "", 
+  "workflow_state_name": "Cancel and Make Changes"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-27 12:28:21.270707", 
+  "name": "Cancelled", 
+  "style": "", 
+  "workflow_state_name": "Cancelled"
+ }
+]

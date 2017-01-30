@@ -1,0 +1,47 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Recipe", 
+  "modified": "2017-01-27 10:20:19.272060", 
+  "name": "Recipe-Client", 
+  "script": "// calculate ABV\nfrappe.ui.form.on(\"Recipe\", {\n    validate: function(frm) {\n        // testing      \n        frm.doc.target_abv = Math.round((frm.doc.target_og - frm.doc.target_tg)*131.25/100)/10;\n    }\n})\n\n\n// set the recipe version number field to the document ID\nfrappe.ui.form.on(\"Recipe\", {\n    validate: function(frm) {\n        // testing      \n        frm.doc.recipe_version_number = frm.doc.name\n    }\n})\n\n\n// if user clicks button to brew beer, bring to New Brew form with pre-filled beer name\n\nfrappe.ui.form.on(\"Recipe\", \"brew_this_beer\", function(frm) {\n  frappe.route_options = {\"beer_name\": frm.doc.beer_name}\n  frappe.set_route(\"Form\", \"Production Brew\", \"New Production Brew\")\n});\n", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Production Brew", 
+  "modified": "2017-01-27 11:23:23.680322", 
+  "name": "Production Brew-Client", 
+  "script": "// calculate ABV\n//frappe.ui.form.on(\"Production Brew\", {\n//    validate: function(frm) {\n// testing      \n//        frm.doc.actual_abv = Math.round((frm.doc.brew_og - frm.doc.final_tg)*131.25/100)/10;\n//    }\n//});\n\n\n// if user clicks button to print brewday prep sheet, bring to print view of same\n\n//frappe.ui.form.on(\"Production Brew\", \"\n//print_brewday_prep\", function(frm) {\n//  frappe.route_options = {\"beer_name\": frm.doc.beer_name} \n//  frappe.set_route(\"Form\", \"Production Brew\", \"New Production Brew\")\n//});\n", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Delivery Note", 
+  "modified": "2017-01-21 11:12:50.530897", 
+  "name": "Delivery Note-Client", 
+  "script": "// try to set fields on editable grid\n//frappe.ui.form.on(\"Delivery Note\", {\n//\n//\tfrm.get_field('items').grid.editable_fields = [\n//\t\t{fieldname: 'item_code', columns: 4},\n//\t\t{fieldname: 'qty', columns: 2},\n//\t\t{fieldname: 'batch', columns: 2},\n//\t\t{fieldname: 'amount', columns: 2}\n//\t]\n//\n//)\n\t", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Packaged Stock Entry", 
+  "modified": "2017-01-21 18:48:56.127019", 
+  "name": "Packaged Stock Entry-Client", 
+  "script": "//only show batch numbers that are valid for this packaging type\n\n//cur_frm.fields_dict['batch_no'].get_query = function(doc) {\n//\treturn {\n//\t\tfilters: {\n//\t\t\t\"item\": \"Equinox - 24 x 33cl\"\n//\t\t}\n//\t}\n//}\n\n//get the brew-batch number from the parent form\n\n\n\n\n//route to a new batch creation on button click\nfrappe.ui.form.on(\"Packaged Stock Entry\", \"generate_batch_number\", function(frm) {\n  frappe.route_options = {\"item\": frm.doc.item_code, \n//\t\t\t  \"production_batch\": frm.doc.brew_batch_number,\n\t\t\t  \"expiry_date\" : frm.doc.expiry }\n  frappe.set_route(\"Form\", \"Packaged Beer Batch\", \"New Packaged Beer Batch\")\n});\n\n\n\n\n", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Packaging Run", 
+  "modified": "2017-01-21 18:47:22.380212", 
+  "name": "Packaging Run-Client", 
+  "script": "//only allow selection of brews that are complete\n\ncur_frm.fields_dict['brew_batch_number'].get_query = function(doc) {\n\treturn {\n\t\tfilters: {\n\t\t\t\"docstatus\": 1\n\t\t}\n\t}\n}\n\n//route to a new batch creation on button click\n//frappe.ui.form.on(\"Packaged Stock Entry\", \"generate_batch_number\", function(frm) {\n//  frappe.route_options = {\"beer\": frm.doc.beer_name, \n//\t\t\t  \"production_batch\": frm.doc.brew_batch_number,\n//\t\t\t  \"expiry_date\" : frm.doc.expiry }\n//  frappe.set_route(\"Form\", \"Packaged Beer Batch\", \"New Packaged Beer Batch\")\n//});\n\n\n\n\n//filter the item types based on the parent beer type\n//cur_frm.fields_dict['items'].grid.get_field('item_code').get_query = function(doc, cdt, cdn) {\n //   return {\n//        filters:{'item_code': doc.beer}\n//    }\n//}\n\n\n\n// cur_frm.fields_dict['packaged_stock_entry'].grid.get_field('items').get_query = function(doc, //cdt, cdn)\n// {\n//                var childtable = locals[cdt][cdn];\n//                return {\n//                   childtable}\n// };\n\n\n\n//make a new batch when the button is clicked\n//\n//frappe.ui.form.on(\"Packaged Stock Entry\", \"generate_batch_number\", function(frm) {\n// \t  doc = frappe.new_doc({\n //   \t\t\"doctype\": \"Packaged Beer Batch\",\n//\t   \t\"production_batch\": cur_frm.doc.brew_batch_number\n//    \t\t\"item\": cur_frm.childtable.item_code\n//    \t\t\"expiry_date\": cur_frm.childtable.expiry_date\n//          })\n//frappe.call.doc.insert()\n//})\n", 
+  "script_type": "Client"
+ }
+]
