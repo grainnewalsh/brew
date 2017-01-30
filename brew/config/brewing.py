@@ -22,7 +22,13 @@ def get_data():
 					"type": "doctype",
 					"name": "Packaging Run",
 					"label": "Packaging Batch Info"
-				}
+				},
+                                {
+                                        "type": "doctype",
+                                        "name": "Beer Spec",
+                                        "label": "Packaged Beer Specifications"
+                                }
+
 			]
 		},
 	{
