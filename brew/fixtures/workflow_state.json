@@ -1,0 +1,83 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "question-sign", 
+  "modified": "2015-12-21 17:38:49.721218", 
+  "name": "Pending", 
+  "style": "", 
+  "workflow_state_name": "Pending"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "ok-sign", 
+  "modified": "2015-12-21 17:38:49.724686", 
+  "name": "Approved", 
+  "style": "Success", 
+  "workflow_state_name": "Approved"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "remove", 
+  "modified": "2015-12-21 17:38:49.726381", 
+  "name": "Rejected", 
+  "style": "Danger", 
+  "workflow_state_name": "Rejected"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-30 21:07:47.925323", 
+  "name": "Ready to Brew", 
+  "style": "", 
+  "workflow_state_name": "Ready to Brew"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-30 21:07:58.737119", 
+  "name": "Fermenting", 
+  "style": "", 
+  "workflow_state_name": "Fermenting"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-30 21:08:08.881176", 
+  "name": "Complete", 
+  "style": "", 
+  "workflow_state_name": "Complete"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-30 21:19:18.525025", 
+  "name": "Conditioning", 
+  "style": "", 
+  "workflow_state_name": "Conditioning"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-30 21:30:03.409372", 
+  "name": "Sent for Packaging", 
+  "style": "", 
+  "workflow_state_name": "Sent for Packaging"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2017-01-30 21:41:57.965950", 
+  "name": "Ready for Packaging", 
+  "style": "", 
+  "workflow_state_name": "Ready for Packaging"
+ }
+]
