@@ -1,0 +1,29 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Recipe", 
+  "modified": "2017-01-27 10:43:00.753016", 
+  "name": "Recipe-Client", 
+  "script": "// calculate ABV\nfrappe.ui.form.on(\"Recipe\", {\n    validate: function(frm) {\n        // testing      \n        frm.doc.target_abv = Math.round((frm.doc.target_og - frm.doc.target_tg)*131.25/100)/10;\n    }\n})\n\n// if user clicks button to brew beer, bring to New Brew form with pre-filled beer name\n\nfrappe.ui.form.on(\"Recipe\", \"brew_this_beer\", function(frm) {\n  frappe.route_options = {\"beer_name\": frm.doc.beer_name}\n  frappe.set_route(\"Form\", \"Production Brew\", \"New Production Brew\")\n});\n", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Production Brew", 
+  "modified": "2017-01-30 21:50:48.922523", 
+  "name": "Production Brew-Client", 
+  "script": "// calculate ABV\nfrappe.ui.form.on(\"Production Brew\", {\n    validate: function(frm) {\n        // testing      \n        frm.doc.actual_abv = Math.round((frm.doc.brew_og - frm.doc.final_tg)*131.25/100)/10;\n    }\n})\n\n// if user clicks button to brew beer, bring to New Brew form with pre-filled beer name\n\nfrappe.ui.form.on(\"Recipe\", \"brew_this_beer\", function(frm) {\n  frappe.route_options = {\"beer_name\": frm.doc.beer_name}\n  frappe.set_route(\"Form\", \"Production Brew\", \"New Production Brew\")\n});\n", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Sales Order", 
+  "modified": "2017-01-31 15:10:34.801280", 
+  "name": "Sales Order-Client", 
+  "script": "// Pull planned ship date from sales order\nfrappe.ui.form.on(\"Delivery Note\", {\n    onload: function(frm) {\n        // testing      \n        frm.doc.posting_date = frm.doc.sales_order_ship_date;\n    }\n})", 
+  "script_type": "Client"
+ }
+]

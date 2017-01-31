@@ -112,5 +112,5 @@ app_license = "TBD"
 # }
 
 #export custom fields as well
-fixtures = ["Custom Field", "Workflow", "Workflow State", "Role"]
+fixtures = ["Custom Field", "Custom Script", "Workflow", "Workflow State", "Role", "Property Setter"]
 
