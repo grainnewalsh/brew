@@ -4,8 +4,19 @@
   "disabled": 0, 
   "docstatus": 0, 
   "doctype": "Role", 
+  "modified": "2017-08-03 19:25:17.566841", 
+  "name": "Super Email User", 
+  "restrict_to_domain": null, 
+  "role_name": "Super Email User"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
   "modified": "2015-12-21 17:38:46.546925", 
   "name": "System Manager", 
+  "restrict_to_domain": null, 
   "role_name": "System Manager"
  }, 
  {
@@ -15,6 +26,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:46.548459", 
   "name": "All", 
+  "restrict_to_domain": null, 
   "role_name": "All"
  }, 
  {
@@ -24,6 +36,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:46.549568", 
   "name": "Administrator", 
+  "restrict_to_domain": null, 
   "role_name": "Administrator"
  }, 
  {
@@ -33,6 +46,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:46.550635", 
   "name": "Guest", 
+  "restrict_to_domain": null, 
   "role_name": "Guest"
  }, 
  {
@@ -42,6 +56,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:46.778782", 
   "name": "Website Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Website Manager"
  }, 
  {
@@ -51,6 +66,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:46.982344", 
   "name": "Blogger", 
+  "restrict_to_domain": null, 
   "role_name": "Blogger"
  }, 
  {
@@ -60,6 +76,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:47.784094", 
   "name": "Sales User", 
+  "restrict_to_domain": null, 
   "role_name": "Sales User"
  }, 
  {
@@ -69,6 +86,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:47.791511", 
   "name": "Accounts User", 
+  "restrict_to_domain": null, 
   "role_name": "Accounts User"
  }, 
  {
@@ -78,6 +96,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:47.792756", 
   "name": "Purchase User", 
+  "restrict_to_domain": null, 
   "role_name": "Purchase User"
  }, 
  {
@@ -87,6 +106,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:49.710654", 
   "name": "Report Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Report Manager"
  }, 
  {
@@ -96,6 +116,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.403606", 
   "name": "Sales Master Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Sales Master Manager"
  }, 
  {
@@ -105,6 +126,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.448277", 
   "name": "Accounts Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Accounts Manager"
  }, 
  {
@@ -114,6 +136,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.522564", 
   "name": "Purchase Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Purchase Manager"
  }, 
  {
@@ -123,6 +146,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.552458", 
   "name": "Purchase Master Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Purchase Master Manager"
  }, 
  {
@@ -132,6 +156,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.626077", 
   "name": "Auditor", 
+  "restrict_to_domain": null, 
   "role_name": "Auditor"
  }, 
  {
@@ -141,6 +166,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.688657", 
   "name": "Employee", 
+  "restrict_to_domain": null, 
   "role_name": "Employee"
  }, 
  {
@@ -150,6 +176,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:50.721559", 
   "name": "Stock User", 
+  "restrict_to_domain": null, 
   "role_name": "Stock User"
  }, 
  {
@@ -159,6 +186,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:51.275130", 
   "name": "Sales Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Sales Manager"
  }, 
  {
@@ -168,6 +196,7 @@
   "doctype": "Role", 
   "modified": "2016-11-11 05:22:13.048240", 
   "name": "Customer", 
+  "restrict_to_domain": null, 
   "role_name": "Customer"
  }, 
  {
@@ -177,6 +206,7 @@
   "doctype": "Role", 
   "modified": "2016-11-11 05:22:13.048701", 
   "name": "Supplier", 
+  "restrict_to_domain": null, 
   "role_name": "Supplier"
  }, 
  {
@@ -186,6 +216,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:52.687676", 
   "name": "Newsletter Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Newsletter Manager"
  }, 
  {
@@ -195,6 +226,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:53.132285", 
   "name": "Stock Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Stock Manager"
  }, 
  {
@@ -204,6 +236,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:53.661872", 
   "name": "Manufacturing Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Manufacturing Manager"
  }, 
  {
@@ -213,6 +246,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:53.774197", 
   "name": "Quality Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Quality Manager"
  }, 
  {
@@ -222,6 +256,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:53.896716", 
   "name": "Projects User", 
+  "restrict_to_domain": null, 
   "role_name": "Projects User"
  }, 
  {
@@ -231,6 +266,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:54.009220", 
   "name": "Projects Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Projects Manager"
  }, 
  {
@@ -240,6 +276,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:54.722301", 
   "name": "Maintenance User", 
+  "restrict_to_domain": null, 
   "role_name": "Maintenance User"
  }, 
  {
@@ -249,6 +286,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:55.113270", 
   "name": "Maintenance Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Maintenance Manager"
  }, 
  {
@@ -258,6 +296,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:55.479354", 
   "name": "Item Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Item Manager"
  }, 
  {
@@ -267,6 +306,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:56.117820", 
   "name": "HR User", 
+  "restrict_to_domain": null, 
   "role_name": "HR User"
  }, 
  {
@@ -276,6 +316,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:56.165548", 
   "name": "HR Manager", 
+  "restrict_to_domain": null, 
   "role_name": "HR Manager"
  }, 
  {
@@ -285,6 +326,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:56.479138", 
   "name": "Expense Approver", 
+  "restrict_to_domain": null, 
   "role_name": "Expense Approver"
  }, 
  {
@@ -294,6 +336,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:57.400044", 
   "name": "Leave Approver", 
+  "restrict_to_domain": null, 
   "role_name": "Leave Approver"
  }, 
  {
@@ -303,6 +346,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:38:57.676284", 
   "name": "Manufacturing User", 
+  "restrict_to_domain": null, 
   "role_name": "Manufacturing User"
  }, 
  {
@@ -312,6 +356,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:39:00.168090", 
   "name": "Support Team", 
+  "restrict_to_domain": null, 
   "role_name": "Support Team"
  }, 
  {
@@ -321,6 +366,7 @@
   "doctype": "Role", 
   "modified": "2015-12-21 17:39:04.105362", 
   "name": "Analytics", 
+  "restrict_to_domain": null, 
   "role_name": "Analytics"
  }, 
  {
@@ -330,6 +376,7 @@
   "doctype": "Role", 
   "modified": "2016-02-08 11:50:53.765770", 
   "name": "Intranet User", 
+  "restrict_to_domain": null, 
   "role_name": "Intranet User"
  }, 
  {
@@ -339,6 +386,7 @@
   "doctype": "Role", 
   "modified": "2016-09-07 06:59:05.647511", 
   "name": "Academics User", 
+  "restrict_to_domain": null, 
   "role_name": "Academics User"
  }, 
  {
@@ -348,6 +396,7 @@
   "doctype": "Role", 
   "modified": "2016-11-11 05:22:13.060235", 
   "name": "Student", 
+  "restrict_to_domain": null, 
   "role_name": "Student"
  }, 
  {
@@ -357,6 +406,7 @@
   "doctype": "Role", 
   "modified": "2016-11-11 05:22:29.282477", 
   "name": "Fleet Manager", 
+  "restrict_to_domain": null, 
   "role_name": "Fleet Manager"
  }, 
  {
@@ -366,6 +416,7 @@
   "doctype": "Role", 
   "modified": "2016-12-29 08:53:11.812600", 
   "name": "Knowledge Base Contributor", 
+  "restrict_to_domain": null, 
   "role_name": "Knowledge Base Contributor"
  }, 
  {
@@ -375,6 +426,7 @@
   "doctype": "Role", 
   "modified": "2016-12-29 08:53:11.967823", 
   "name": "Knowledge Base Editor", 
+  "restrict_to_domain": null, 
   "role_name": "Knowledge Base Editor"
  }, 
  {
@@ -384,6 +436,7 @@
   "doctype": "Role", 
   "modified": "2016-12-29 08:53:36.894898", 
   "name": "Instructor", 
+  "restrict_to_domain": null, 
   "role_name": "Instructor"
  }, 
  {
@@ -393,6 +446,7 @@
   "doctype": "Role", 
   "modified": "2017-01-15 19:16:10.486949", 
   "name": "Brewer", 
+  "restrict_to_domain": null, 
   "role_name": "Brewer"
  }
 ]
